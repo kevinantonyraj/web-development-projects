@@ -1,0 +1,311 @@
+html {
+    scroll-behavior: smooth; /* CSS smooth scroll */
+}
+#first{   
+    background-image: url("./images/banner.jpg");
+    padding: 0px;
+    border: 5px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    background-color: rgb(0, 0, 0,0.9);
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;    
+}
+a {
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.register-button {
+    background-color: rgb(255, 55, 55);
+    color: black;
+    border: solid black;
+    margin-right: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: rgb(255, 55, 55);
+    border-radius: 25px;
+    border-color: solid black;
+    height: 40px;
+    width: 150px;
+}
+body {
+    margin: 0;
+}
+#content-1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("./images/content1.jpg");
+    margin: 0;    
+    background-size: cover;
+    height: 600px;
+    padding-top: 175px;
+}
+P {
+    color: white;
+    font-size: 50px;
+}
+#content-1-para{
+    padding-left: 155px;
+    padding-top: 70px;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+}
+#membership{
+    padding-left: 800px   ;
+
+}
+ #content-2-sub img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#content-2{
+    background-image: url("./images/content2.jpg");
+    background-size: cover;
+    color: white;
+}
+.trainers{
+    font-size: 15px;
+    text-align: center;
+}
+#content-2-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content2-item{
+    width: 200px;
+    background-color: rgb(0, 0, 0,0.6);
+    border-radius: 30px;
+    padding: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#content-2 > h2{
+    margin: 50px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-3{
+    background-image: url("./images/clock\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: grid;
+    justify-items: end;
+    align-items: center;
+    padding-bottom: 100px; 
+}
+#content-3-sub{
+    width: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-right: 45px;   
+}
+.content-3 #scheduling{
+    color: black;
+}
+.content-3 #scheduling-para{
+    font-size: 25px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.content-3 button{
+    margin-top: 25px;
+    margin-left: 375px;
+}
+#content-4 {
+    background-image: url("./images/challenges.jpg");
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+#content-4 p{
+    font-size: 20px;
+    width: 40%;
+    padding-left: 75px;
+    margin-top: 500px;
+}
+.ll div{
+    color: black;
+    font-weight: bold;
+    display: grid;
+}
+.course img{
+    border-radius: 50px;
+    border: 5px solid gray;
+    width: 200px;
+    height: 125px;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+}
+.ll{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px 10px 20px;   
+}
+.ll div{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+/* Style for the scrollbar track */
+::-webkit-scrollbar-track {
+    background: rgb(241, 241, 241,0.1);
+    border-radius: 6px;
+}
+/* Style for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136,0.1);
+    border-radius: 6px;
+}
+/* Style for the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85,0.7);
+}
+.course {
+    height: 520px;
+    width: 400px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255,0.2);
+    border-radius: 30px;
+    margin-top: 90px;
+    margin-right: 70px;
+}
+#aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("./images/about\ us.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: whitesmoke;  
+}
+#aboutus h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#aboutus img{
+    height: 75px;
+    width: 75px;
+    border: 2px solid black ;
+    border-radius: 10px;
+}
+#aboutus section{
+    display: grid;
+    grid-template-areas: "item1 item2 item3" "item4 item5 item6";
+    justify-content: space-around;
+}
+#aboutus p{
+    font-size: 20px;
+    text-align: center;
+}
+#aboutus div{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 75px;
+    background-color: rgba(52, 70, 105, 0.616);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#community{
+    height: 700px;
+    background-image: url("./images/community\ page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#community .coc{
+    background-color: rgb(0, 0, 0,0.1);
+    backdrop-filter: blur("10px");
+    width: 55%;
+    height: 60%;
+    padding: 20px;
+    border-radius: 20px;
+}
+#community a{
+    color: black;
+}
+#community a:hover{
+    color: red;
+}
+.coc p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("./images/foot\ back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer li{
+    list-style-type: none;   
+}
+.f1{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.f2 p{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.f3{
+    color: white;
+}
